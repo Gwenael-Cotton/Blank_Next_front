@@ -7,7 +7,7 @@ interface Props {
   label: string;
 }
 
-export default function InputError ({errorMessage, typeInput, placeholder, label}: Props): JSX.Element {
+export default function InputError ({errorMessage, typeInput, placeholder, label}: Props) {
     const [error, setError] = useState(false);
     const handleBlur = (event: React.FocusEvent<HTMLInputElement>) => {
         const {value, type} = event.target;
