@@ -1,9 +1,8 @@
-import {useState} from "react";
 import ErrorInput from "./ErrorInput";
 
 export default function LoginForm () {
     return (
-      <div className="flex flex-col divide-y">
+      <div className="flex flex-col divide-y-2 divide-gray-200 gap-4">
           <div className="flex flex-col">
             <form>
                 <h2 className="text-center text-2xl font-bold pb-10">Je me connecte</h2>
