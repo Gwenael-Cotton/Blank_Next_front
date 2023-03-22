@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import LoginForm from '../../components/Login/LoginForm.tsx'
+import LoginForm from '../../components/Login/LoginForm'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,7 +35,6 @@ export default function Home() {
        <section className="flex flex-col p-20 justify-center w-1/3">
         <LoginForm />
        </section>
-       {/* <section className="bg-blue-300 bg-gradient-to-r from-white w-full"> */}
        <section className="bg-gradient-to-l from-cyan-500 to-blue-500 w-full">
         <div className="flex h-screen justify-center items-center shadow-2xl">
         <Image 
